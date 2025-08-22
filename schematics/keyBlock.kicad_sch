@@ -1,0 +1,2710 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "572d8ff7-0df1-425b-a5a5-451fee065b5c")
+	(paper "A4")
+	(title_block
+		(title "Плата управления\\nшаговыми двигателями")
+		(date "2025-04-30")
+		(comment 1 "Ключ в сборке")
+		(comment 2 "Филимонов С.В.")
+	)
+	(lib_symbols
+		(symbol "Analog_Switch:CD4066BM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CD4066BM"
+				(at 7.62 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad 20V analog SPST 1:1 switch, SO-14 (3.9x8.65mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "analog switch selector multiplexer spst mux amux"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SO*3.9x8.65mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CD4066BM_1_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CD4066BM_2_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CD4066BM_3_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CD4066BM_4_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CD4066BM_5_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "V_{SS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 152.4 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c91f64d8-b3e3-43af-9b3f-eb5aa68ce17f")
+	)
+	(junction
+		(at 176.53 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f463daf2-533a-457f-a667-631817274964")
+	)
+	(junction
+		(at 134.62 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f644fa0d-5d00-408e-bea3-2324b483e1e3")
+	)
+	(wire
+		(pts
+			(xy 182.88 101.6) (xy 185.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b664321-2e55-4682-98cc-592248ce8958")
+	)
+	(wire
+		(pts
+			(xy 140.97 63.5) (xy 143.51 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139b33e4-49da-490a-ac5c-0ccbf4619991")
+	)
+	(wire
+		(pts
+			(xy 140.97 83.82) (xy 143.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f811e7-fa88-4608-947e-d56eac60265a")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 143.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283d9cbc-99dc-460d-9a34-2d6faa93b7f7")
+	)
+	(wire
+		(pts
+			(xy 182.88 81.28) (xy 185.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e20a41f-f096-4f42-bf20-58b03ab71925")
+	)
+	(wire
+		(pts
+			(xy 182.88 100.33) (xy 182.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31abd6cc-5d61-4ff7-9b46-84c8815b8459")
+	)
+	(wire
+		(pts
+			(xy 134.62 92.71) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cf86ca-398b-477b-9d4c-879762aacad8")
+	)
+	(wire
+		(pts
+			(xy 182.88 85.09) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae547c2-f57b-4cb2-99b9-611e3f59308d")
+	)
+	(wire
+		(pts
+			(xy 182.88 83.82) (xy 185.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470d3b07-4e92-46ce-8998-573718d9eb25")
+	)
+	(wire
+		(pts
+			(xy 135.89 72.39) (xy 134.62 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ea142e-1d2f-41f7-bc5c-39482f283f8a")
+	)
+	(wire
+		(pts
+			(xy 182.88 80.01) (xy 182.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "524818da-19ae-4845-9417-e148f7b31994")
+	)
+	(wire
+		(pts
+			(xy 173.99 92.71) (xy 176.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70527a76-ecc5-4fa6-9e56-eb9c10511ce9")
+	)
+	(wire
+		(pts
+			(xy 140.97 85.09) (xy 140.97 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731d6f96-8f10-4c10-aba8-2720f6bc09ac")
+	)
+	(wire
+		(pts
+			(xy 152.4 123.19) (xy 152.4 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "760b81bb-7077-4b22-a75c-3322ed6e07d9")
+	)
+	(wire
+		(pts
+			(xy 177.8 123.19) (xy 175.26 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b6c271-7aa5-4dac-a490-959ba642bd3b")
+	)
+	(wire
+		(pts
+			(xy 152.4 123.19) (xy 160.02 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794545e4-e97b-47b5-9f5c-7a5d9569ca52")
+	)
+	(wire
+		(pts
+			(xy 176.53 92.71) (xy 177.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b157ee-006e-4dbb-a5e2-ce3e2aeee4a0")
+	)
+	(wire
+		(pts
+			(xy 177.8 124.46) (xy 177.8 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972e7958-5de0-4295-b242-b7e54268d218")
+	)
+	(wire
+		(pts
+			(xy 140.97 81.28) (xy 143.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cfc6418-82a3-4626-bb55-2edf03a4bc75")
+	)
+	(wire
+		(pts
+			(xy 177.8 72.39) (xy 176.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0cd918-8148-4995-af72-6cb969bde9de")
+	)
+	(wire
+		(pts
+			(xy 140.97 100.33) (xy 140.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e3c557-2fbd-44a1-98db-a6eaa92c516d")
+	)
+	(wire
+		(pts
+			(xy 152.4 132.08) (xy 152.4 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7889eb2-4672-412e-ade7-820891916f8e")
+	)
+	(wire
+		(pts
+			(xy 176.53 72.39) (xy 176.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9eff3f3-9037-4521-90a0-9fba53f5de32")
+	)
+	(wire
+		(pts
+			(xy 182.88 63.5) (xy 185.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d6837a-fc9b-4964-a925-6b21b90bce89")
+	)
+	(wire
+		(pts
+			(xy 140.97 80.01) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c06d4b-53b7-44d1-b2c0-d583740cec39")
+	)
+	(wire
+		(pts
+			(xy 182.88 64.77) (xy 182.88 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6e3ffa-f140-4ed9-99f5-e43d77c4050a")
+	)
+	(wire
+		(pts
+			(xy 134.62 72.39) (xy 134.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea8ed5b-9bef-4b01-93bc-7c57c891754b")
+	)
+	(wire
+		(pts
+			(xy 132.08 92.71) (xy 134.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7237778-eaac-48d8-a3b0-0a264240c61c")
+	)
+	(wire
+		(pts
+			(xy 147.32 123.19) (xy 152.4 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde556c9-e704-4e3e-a077-83641ad6ae98")
+	)
+	(wire
+		(pts
+			(xy 140.97 64.77) (xy 140.97 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff16374e-98cd-48a4-bf2b-463ac7728197")
+	)
+	(hierarchical_label "AD_OUT2"
+		(shape output)
+		(at 143.51 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15a8b9a9-1bbf-4304-9181-f6a5c4ce4201")
+	)
+	(hierarchical_label "BC_IN1"
+		(shape input)
+		(at 185.42 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36924060-dfd1-418f-842b-0d59e805e4e0")
+	)
+	(hierarchical_label "AD_OUT1"
+		(shape output)
+		(at 143.51 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42d7c72b-b22e-43a0-8635-d91bd4fa8b74")
+	)
+	(hierarchical_label "AD_KEY"
+		(shape input)
+		(at 132.08 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4422a960-7aa8-4ce1-a7c8-af909bc2efbb")
+	)
+	(hierarchical_label "BC_IN2"
+		(shape input)
+		(at 185.42 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76237f1a-9621-4bce-9915-3be973e7d28c")
+	)
+	(hierarchical_label "BC_KEY"
+		(shape input)
+		(at 173.99 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77a585a8-d87f-42e1-8df5-b10f34d141ec")
+	)
+	(hierarchical_label "AD_IN2"
+		(shape input)
+		(at 143.51 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9880d048-7102-4958-9488-521a66e3020d")
+	)
+	(hierarchical_label "BC_OUT2"
+		(shape input)
+		(at 185.42 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bee733a9-75ba-4b87-8924-8e7c86c332b7")
+	)
+	(hierarchical_label "BC_OUT1"
+		(shape input)
+		(at 185.42 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e07e454d-ef85-4adb-a042-2a7ee9cfdbef")
+	)
+	(hierarchical_label "AD_IN1"
+		(shape input)
+		(at 143.51 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eac5c64b-06d0-46e0-86c2-5f1dac419208")
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 147.32 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00f2fa46-282e-44be-b702-2e5e959d070f")
+		(property "Reference" "#PWR0274"
+			(at 147.32 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 147.32 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "032dfd5a-c4cd-4604-993d-c7f4426ba520")
+		)
+		(instances
+			(project "UnitStepMotors"
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/42caaca4-7af9-49fc-8cd0-434b34f7a8be"
+					(reference "#PWR0283")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/5882a47b-7c7d-4da1-8de2-b61265d340a9"
+					(reference "#PWR0280")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/620d697e-65aa-4ce1-9704-39244abd4784"
+					(reference "#PWR0277")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/645dd854-3860-467a-8582-01565d57d73c"
+					(reference "#PWR0286")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/cfbba2e6-f163-419e-868e-f33c782ca8cb"
+					(reference "#PWR0274")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:CD4066BM")
+		(at 140.97 92.71 270)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cf3a774-4f57-45c5-8834-d5434e46d97b")
+		(property "Reference" "U14"
+			(at 144.78 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CD4066BM"
+			(at 144.78 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 140.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 20V analog SPST 1:1 switch, SO-14 (3.9x8.65mm)"
+			(at 140.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f1d6e245-4838-4f4d-afa6-b3f0106280bb")
+		)
+		(pin "8"
+			(uuid "7650033d-787c-4620-8900-b3cc53e41b1f")
+		)
+		(pin "6"
+			(uuid "015b8710-fb24-4dd4-a161-dece15e31cdd")
+		)
+		(pin "9"
+			(uuid "22c5dd33-7150-4dfe-bbdc-a4a41f189cfc")
+		)
+		(pin "1"
+			(uuid "6cd416c5-e5c1-4b2b-a434-479fb310bf67")
+		)
+		(pin "4"
+			(uuid "8889b6b9-a6c5-4c8d-a4e9-94320377221c")
+		)
+		(pin "5"
+			(uuid "c09e966d-ee43-4697-b5f9-c559518b6ae2")
+		)
+		(pin "2"
+			(uuid "5098f538-1468-4af5-8794-95a9b36b36a1")
+		)
+		(pin "13"
+			(uuid "1690212b-836b-46ab-abb0-cfe432ff3ed2")
+		)
+		(pin "11"
+			(uuid "721b1d2e-45a0-4156-86b1-0069079d9269")
+		)
+		(pin "12"
+			(uuid "fef83479-7aaa-42e5-9bc7-88984d30cdd4")
+		)
+		(pin "10"
+			(uuid "2f78b061-7056-4537-8128-c4c2d69ad429")
+		)
+		(pin "14"
+			(uuid "21dd253b-27d1-4687-9aba-1a023f4d303e")
+		)
+		(pin "7"
+			(uuid "3a009166-c85e-40ae-a2dd-97978fa648e3")
+		)
+		(instances
+			(project "UnitStepMotors"
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/42caaca4-7af9-49fc-8cd0-434b34f7a8be"
+					(reference "U17")
+					(unit 4)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/5882a47b-7c7d-4da1-8de2-b61265d340a9"
+					(reference "U16")
+					(unit 4)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/620d697e-65aa-4ce1-9704-39244abd4784"
+					(reference "U15")
+					(unit 4)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/645dd854-3860-467a-8582-01565d57d73c"
+					(reference "U18")
+					(unit 4)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/cfbba2e6-f163-419e-868e-f33c782ca8cb"
+					(reference "U14")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e510e76-8e12-4a65-98bc-8c004fbbe7e1")
+		(property "Reference" "C114"
+			(at 156.21 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 156.21 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 153.3652 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e456a448-b4be-4eec-a704-a1576d4cc462")
+		)
+		(pin "1"
+			(uuid "9124314f-0b76-4b81-bb7f-9f148950c542")
+		)
+		(instances
+			(project "UnitStepMotors"
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/42caaca4-7af9-49fc-8cd0-434b34f7a8be"
+					(reference "C117")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/5882a47b-7c7d-4da1-8de2-b61265d340a9"
+					(reference "C116")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/620d697e-65aa-4ce1-9704-39244abd4784"
+					(reference "C115")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/645dd854-3860-467a-8582-01565d57d73c"
+					(reference "C118")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/cfbba2e6-f163-419e-868e-f33c782ca8cb"
+					(reference "C114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "654ab17e-7292-447d-85cc-849d82efbfbd")
+		(property "Reference" "#PWR0276"
+			(at 177.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29d83270-2988-46f2-ae7a-04505fe1cd24")
+		)
+		(instances
+			(project "UnitStepMotors"
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/42caaca4-7af9-49fc-8cd0-434b34f7a8be"
+					(reference "#PWR0285")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/5882a47b-7c7d-4da1-8de2-b61265d340a9"
+					(reference "#PWR0282")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/620d697e-65aa-4ce1-9704-39244abd4784"
+					(reference "#PWR0279")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/645dd854-3860-467a-8582-01565d57d73c"
+					(reference "#PWR0288")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/cfbba2e6-f163-419e-868e-f33c782ca8cb"
+					(reference "#PWR0276")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:CD4066BM")
+		(at 167.64 123.19 90)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "873b671f-a789-4eb9-9a1a-7b8adfdc5384")
+		(property "Reference" "U14"
+			(at 167.64 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD4066BM"
+			(at 167.64 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 170.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 20V analog SPST 1:1 switch, SO-14 (3.9x8.65mm)"
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "f2afe1f0-f2ca-4b8c-beb7-178d2e71ec00")
+		)
+		(pin "14"
+			(uuid "45a9eea8-0bef-4a61-8ea8-5540d5dc9cd4")
+		)
+		(pin "11"
+			(uuid "c3baa7c2-d0f0-48ea-9361-744000446298")
+		)
+		(pin "10"
+			(uuid "bb8f7dbe-1db9-48ce-9b1a-e57e598e77df")
+		)
+		(pin "8"
+			(uuid "a20d6dac-5f88-4cb0-99da-d03c0174d4f3")
+		)
+		(pin "12"
+			(uuid "f87276c9-5920-44c5-bd70-47bc1c8667f6")
+		)
+		(pin "9"
+			(uuid "74abc7ad-32ca-4dd0-bdcc-4ba7901cc3e6")
+		)
+		(pin "6"
+			(uuid "ffece587-9290-438a-bf24-03e261700a26")
+		)
+		(pin "13"
+			(uuid "b0136b11-ce31-424a-8c58-bea334bc7b7b")
+		)
+		(pin "1"
+			(uuid "504cf2da-6636-4444-8676-974efab2dfc9")
+		)
+		(pin "2"
+			(uuid "7db1c069-e50f-45bd-8047-285698babe33")
+		)
+		(pin "5"
+			(uuid "2941a293-8de8-4b6c-9c44-092ab5f849a2")
+		)
+		(pin "4"
+			(uuid "709bc1f6-ab2d-406f-a5ce-7652383818b3")
+		)
+		(pin "3"
+			(uuid "d5d042f6-3b6c-44e4-a1e8-c9cd8ad4e60d")
+		)
+		(instances
+			(project "UnitStepMotors"
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/42caaca4-7af9-49fc-8cd0-434b34f7a8be"
+					(reference "U17")
+					(unit 5)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/5882a47b-7c7d-4da1-8de2-b61265d340a9"
+					(reference "U16")
+					(unit 5)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/620d697e-65aa-4ce1-9704-39244abd4784"
+					(reference "U15")
+					(unit 5)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/645dd854-3860-467a-8582-01565d57d73c"
+					(reference "U18")
+					(unit 5)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/cfbba2e6-f163-419e-868e-f33c782ca8cb"
+					(reference "U14")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:CD4066BM")
+		(at 182.88 92.71 270)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b26c9b2d-8298-4b23-9f0f-3ae1b5fcb39b")
+		(property "Reference" "U14"
+			(at 186.69 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CD4066BM"
+			(at 186.69 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 20V analog SPST 1:1 switch, SO-14 (3.9x8.65mm)"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ca4e771-b338-4f67-a2f3-33ab5c87db8f")
+		)
+		(pin "13"
+			(uuid "e3a1b8d1-2514-4ffa-a4a6-5ab6a592b063")
+		)
+		(pin "2"
+			(uuid "0bf72f69-fa75-43bb-8414-8d1b71f30a2c")
+		)
+		(pin "4"
+			(uuid "2ce2171e-bafb-4d23-b003-6eebf5ecd9ce")
+		)
+		(pin "5"
+			(uuid "bdb02b96-8d35-41d1-aa57-f8fdaf4f6581")
+		)
+		(pin "3"
+			(uuid "59126b12-cb0f-4ec6-b7f3-f3dbe23f5134")
+		)
+		(pin "8"
+			(uuid "2255844b-ac68-46dd-a01e-326e51622d58")
+		)
+		(pin "6"
+			(uuid "e4344672-2e8f-47bf-a7ce-a605ef8e6c29")
+		)
+		(pin "9"
+			(uuid "95faba6f-c8a6-4e57-866b-6dcd77ccc195")
+		)
+		(pin "11"
+			(uuid "d823e582-1753-4f84-aaab-d2f9e5c209b0")
+		)
+		(pin "12"
+			(uuid "e443256f-beb7-44df-a061-b26aa81fde96")
+		)
+		(pin "10"
+			(uuid "29b48007-373e-48d2-935f-4c7350db0558")
+		)
+		(pin "14"
+			(uuid "274e7d1f-0eb2-460c-b4b1-c843eb8f84ca")
+		)
+		(pin "7"
+			(uuid "f13f6754-84a1-4118-81a0-a307cc192a56")
+		)
+		(instances
+			(project "UnitStepMotors"
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/42caaca4-7af9-49fc-8cd0-434b34f7a8be"
+					(reference "U17")
+					(unit 3)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/5882a47b-7c7d-4da1-8de2-b61265d340a9"
+					(reference "U16")
+					(unit 3)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/620d697e-65aa-4ce1-9704-39244abd4784"
+					(reference "U15")
+					(unit 3)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/645dd854-3860-467a-8582-01565d57d73c"
+					(reference "U18")
+					(unit 3)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/cfbba2e6-f163-419e-868e-f33c782ca8cb"
+					(reference "U14")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc38501d-004b-42a4-be35-00699ce26681")
+		(property "Reference" "#PWR0275"
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "752b5573-8aa9-4a4d-becc-82311727010b")
+		)
+		(instances
+			(project "UnitStepMotors"
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/42caaca4-7af9-49fc-8cd0-434b34f7a8be"
+					(reference "#PWR0284")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/5882a47b-7c7d-4da1-8de2-b61265d340a9"
+					(reference "#PWR0281")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/620d697e-65aa-4ce1-9704-39244abd4784"
+					(reference "#PWR0278")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/645dd854-3860-467a-8582-01565d57d73c"
+					(reference "#PWR0287")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/cfbba2e6-f163-419e-868e-f33c782ca8cb"
+					(reference "#PWR0275")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:CD4066BM")
+		(at 182.88 72.39 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e88bda45-118b-45d6-bd8b-a2e103172c5d")
+		(property "Reference" "U14"
+			(at 186.69 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CD4066BM"
+			(at 186.69 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 180.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 182.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 20V analog SPST 1:1 switch, SO-14 (3.9x8.65mm)"
+			(at 182.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d402b07-c205-4ce3-ad8e-3044939db931")
+		)
+		(pin "13"
+			(uuid "3edead53-98da-46fc-997e-a5f1dfb40ee7")
+		)
+		(pin "2"
+			(uuid "7c32cd02-a067-4491-b49a-f953bd3c0828")
+		)
+		(pin "4"
+			(uuid "b49ce131-de0c-4136-862a-9df6cd1764a5")
+		)
+		(pin "5"
+			(uuid "df6d3787-e117-49ff-8dba-db59823eaaf5")
+		)
+		(pin "3"
+			(uuid "c741ee26-b2f2-41e4-8b8f-7f368948196e")
+		)
+		(pin "8"
+			(uuid "b8946c20-6b03-4b30-bb7d-b8b4b29b0d45")
+		)
+		(pin "6"
+			(uuid "dfb66fcc-2575-4a8b-9bb2-41cbfa579796")
+		)
+		(pin "9"
+			(uuid "3f8c1c5c-b2a1-42b1-99bb-e91a2780e26a")
+		)
+		(pin "11"
+			(uuid "2700530a-4c95-44b9-936a-2b9d01f6d757")
+		)
+		(pin "12"
+			(uuid "80dc2341-8e4e-4ae4-8d0c-47461e5c2cfb")
+		)
+		(pin "10"
+			(uuid "af6ff5af-7327-4b34-a051-9d25738785f5")
+		)
+		(pin "14"
+			(uuid "7a3ca7c4-32ba-4f3e-8fba-d304e3f2d922")
+		)
+		(pin "7"
+			(uuid "a556e0d5-9c2b-4590-9994-5265194c41be")
+		)
+		(instances
+			(project "UnitStepMotors"
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/42caaca4-7af9-49fc-8cd0-434b34f7a8be"
+					(reference "U17")
+					(unit 2)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/5882a47b-7c7d-4da1-8de2-b61265d340a9"
+					(reference "U16")
+					(unit 2)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/620d697e-65aa-4ce1-9704-39244abd4784"
+					(reference "U15")
+					(unit 2)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/645dd854-3860-467a-8582-01565d57d73c"
+					(reference "U18")
+					(unit 2)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/cfbba2e6-f163-419e-868e-f33c782ca8cb"
+					(reference "U14")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:CD4066BM")
+		(at 140.97 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9060c8f-bf6a-4d1c-808b-dc5d296f76d8")
+		(property "Reference" "U14"
+			(at 144.78 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CD4066BM"
+			(at 144.78 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 138.43 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 20V analog SPST 1:1 switch, SO-14 (3.9x8.65mm)"
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "8cdd99f4-3fef-4025-a1b1-26afe0c77234")
+		)
+		(pin "12"
+			(uuid "e58a6361-e3f5-4c59-9bee-333b3bcc1365")
+		)
+		(pin "1"
+			(uuid "e60baf9d-0332-4116-beed-fb1c8bbb1127")
+		)
+		(pin "13"
+			(uuid "d8cd5b77-0aea-44cf-95bb-f5eb6df73fba")
+		)
+		(pin "7"
+			(uuid "e58edddc-336a-4038-928d-83c41487a5f0")
+		)
+		(pin "5"
+			(uuid "aaaf6c17-69e8-4fc4-ac06-2226ebafacdf")
+		)
+		(pin "8"
+			(uuid "c57c79de-6bad-4fed-8064-a2b5d1abfb24")
+		)
+		(pin "3"
+			(uuid "162a49bd-523b-4246-9b98-2e1dd5cf58d7")
+		)
+		(pin "14"
+			(uuid "303e068e-ebb1-4cd2-b8a6-4970ba9b700f")
+		)
+		(pin "2"
+			(uuid "669b1898-2678-4eff-bc6c-c4783200edaf")
+		)
+		(pin "4"
+			(uuid "68515503-fa6a-4712-ac29-d717b90bab47")
+		)
+		(pin "9"
+			(uuid "8545b5a5-a955-4c01-9a8a-c21cfa353fee")
+		)
+		(pin "10"
+			(uuid "e6e66738-b4c0-4731-90ed-f4b7108982e8")
+		)
+		(pin "11"
+			(uuid "0dc2f14d-920c-4570-ad78-1952ffa12451")
+		)
+		(instances
+			(project "UnitStepMotors"
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/42caaca4-7af9-49fc-8cd0-434b34f7a8be"
+					(reference "U17")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/5882a47b-7c7d-4da1-8de2-b61265d340a9"
+					(reference "U16")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/620d697e-65aa-4ce1-9704-39244abd4784"
+					(reference "U15")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/645dd854-3860-467a-8582-01565d57d73c"
+					(reference "U18")
+					(unit 1)
+				)
+				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/cfbba2e6-f163-419e-868e-f33c782ca8cb"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

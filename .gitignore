@@ -9,8 +9,10 @@
 *.pdf
 *.log
 
+*auto_saved_files*
 fp-info-cache
 fp-lib-table
+~*
 
 .DS_Store
 

@@ -7,8 +7,10 @@
 	(title_block
 		(title "Плата управления\\nшаговыми двигателями")
 		(date "2025-04-30")
-		(comment 1 "Ключ в сборке")
+		(company "МГТУ им. Н.Э.Баумана")
+		(comment 1 "БИГЕ.351101.001 Э3")
 		(comment 2 "Филимонов С.В.")
+		(comment 3 "Семеренко Д.А.")
 	)
 	(lib_symbols
 		(symbol "Analog_Switch:CD4066BM"

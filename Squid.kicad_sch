@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Плата управления\\nшаговыми двигателями")
-		(date "2025-08-24")
+		(date "2025-08-25")
 		(company "МГТУ им. Н.Э.Баумана")
 		(comment 1 "БИГЕ.351101.001 Э3")
 		(comment 2 "Филимонов С.В.")
@@ -4938,7 +4938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b3f8228-b6bc-4434-976e-3fb949d84ef9")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 63.5 204.47 0)
 			(effects
 				(font
@@ -4989,7 +4989,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5004,7 +5004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35aab0a1-2c86-48d2-a50c-4d75c465b281")
-		(property "Reference" "R83"
+		(property "Reference" "R2"
 			(at 265.5584 20.2006 90)
 			(effects
 				(font
@@ -5056,7 +5056,7 @@
 		(instances
 			(project "Squid"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa"
-					(reference "R83")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5072,7 +5072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ac199e4-d8b6-42d7-bab9-7370a055b166")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 62.23 129.54 0)
 			(effects
 				(font
@@ -5123,7 +5123,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5323,7 +5323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96b0a921-e5c5-467e-adb9-578faa0b492f")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 64.77 129.54 0)
 			(effects
 				(font
@@ -5374,7 +5374,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5390,7 +5390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1ed79c7-3c8b-4ec0-91ce-348c76de60de")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 69.088 58.674 0)
 			(effects
 				(font
@@ -5440,7 +5440,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5602,7 +5602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb9de591-12db-41bc-bfb3-31c5e747070f")
-		(property "Reference" "R84"
+		(property "Reference" "R1"
 			(at 265.4834 30.2459 90)
 			(effects
 				(font
@@ -5654,7 +5654,7 @@
 		(instances
 			(project "Squid"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa"
-					(reference "R84")
+					(reference "R1")
 					(unit 1)
 				)
 			)

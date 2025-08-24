@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Плата управления\\nшаговыми двигателями")
-		(date "2025-04-30")
+		(date "2025-08-25")
 		(company "МГТУ им. Н.Э.Баумана")
 		(comment 1 "БИГЕ.351101.001 Э3")
 		(comment 2 "Филимонов С.В.")
@@ -1777,7 +1777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00f2fa46-282e-44be-b702-2e5e959d070f")
-		(property "Reference" "#PWR0274"
+		(property "Reference" "#PWR0290"
 			(at 147.32 127 0)
 			(effects
 				(font
@@ -1827,23 +1827,23 @@
 		(instances
 			(project "UnitStepMotors"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/42caaca4-7af9-49fc-8cd0-434b34f7a8be"
-					(reference "#PWR0283")
+					(reference "#PWR0299")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/5882a47b-7c7d-4da1-8de2-b61265d340a9"
-					(reference "#PWR0280")
+					(reference "#PWR0296")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/620d697e-65aa-4ce1-9704-39244abd4784"
-					(reference "#PWR0277")
+					(reference "#PWR0293")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/645dd854-3860-467a-8582-01565d57d73c"
-					(reference "#PWR0286")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/cfbba2e6-f163-419e-868e-f33c782ca8cb"
-					(reference "#PWR0274")
+					(reference "#PWR0290")
 					(unit 1)
 				)
 			)
@@ -1981,7 +1981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e510e76-8e12-4a65-98bc-8c004fbbe7e1")
-		(property "Reference" "C114"
+		(property "Reference" "C67"
 			(at 156.21 126.9999 0)
 			(effects
 				(font
@@ -2035,23 +2035,23 @@
 		(instances
 			(project "UnitStepMotors"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/42caaca4-7af9-49fc-8cd0-434b34f7a8be"
-					(reference "C117")
+					(reference "C70")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/5882a47b-7c7d-4da1-8de2-b61265d340a9"
-					(reference "C116")
+					(reference "C69")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/620d697e-65aa-4ce1-9704-39244abd4784"
-					(reference "C115")
+					(reference "C68")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/645dd854-3860-467a-8582-01565d57d73c"
-					(reference "C118")
+					(reference "C71")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/cfbba2e6-f163-419e-868e-f33c782ca8cb"
-					(reference "C114")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -2067,7 +2067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "654ab17e-7292-447d-85cc-849d82efbfbd")
-		(property "Reference" "#PWR0276"
+		(property "Reference" "#PWR0292"
 			(at 177.8 130.81 0)
 			(effects
 				(font
@@ -2118,23 +2118,23 @@
 		(instances
 			(project "UnitStepMotors"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/42caaca4-7af9-49fc-8cd0-434b34f7a8be"
-					(reference "#PWR0285")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/5882a47b-7c7d-4da1-8de2-b61265d340a9"
-					(reference "#PWR0282")
+					(reference "#PWR0298")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/620d697e-65aa-4ce1-9704-39244abd4784"
-					(reference "#PWR0279")
+					(reference "#PWR0295")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/645dd854-3860-467a-8582-01565d57d73c"
-					(reference "#PWR0288")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/cfbba2e6-f163-419e-868e-f33c782ca8cb"
-					(reference "#PWR0276")
+					(reference "#PWR0292")
 					(unit 1)
 				)
 			)
@@ -2392,7 +2392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc38501d-004b-42a4-be35-00699ce26681")
-		(property "Reference" "#PWR0275"
+		(property "Reference" "#PWR0291"
 			(at 152.4 139.7 0)
 			(effects
 				(font
@@ -2443,23 +2443,23 @@
 		(instances
 			(project "UnitStepMotors"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/42caaca4-7af9-49fc-8cd0-434b34f7a8be"
-					(reference "#PWR0284")
+					(reference "#PWR0300")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/5882a47b-7c7d-4da1-8de2-b61265d340a9"
-					(reference "#PWR0281")
+					(reference "#PWR0297")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/620d697e-65aa-4ce1-9704-39244abd4784"
-					(reference "#PWR0278")
+					(reference "#PWR0294")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/645dd854-3860-467a-8582-01565d57d73c"
-					(reference "#PWR0287")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/94d474f4-4dfd-42a8-bb56-6367e7e928e7/cfbba2e6-f163-419e-868e-f33c782ca8cb"
-					(reference "#PWR0275")
+					(reference "#PWR0291")
 					(unit 1)
 				)
 			)

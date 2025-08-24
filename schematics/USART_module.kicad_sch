@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Плата управления\\nшаговыми двигателями")
-		(date "2025-08-24")
+		(date "2025-08-25")
 		(company "МГТУ им. Н.Э.Баумана")
 		(comment 1 "БИГЕ.351101.001 Э3")
 		(comment 2 "Филимонов С.В.")
@@ -2534,7 +2534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02e082af-cfcc-41a1-9674-37b628bc210d")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 126.5216 84.5314 0)
 			(effects
 				(font
@@ -2585,7 +2585,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2601,7 +2601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03bf878f-0372-49e1-80eb-c1dfb2272656")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR033"
 			(at 114.2728 84.7364 0)
 			(effects
 				(font
@@ -2652,7 +2652,7 @@
 		(instances
 			(project "Squid"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "#PWR039")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2668,7 +2668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e39766c-0acd-4c43-86e1-3ea134f4c4fa")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 162.56 69.6677 0)
 			(effects
 				(font
@@ -2718,7 +2718,7 @@
 		(instances
 			(project "UnitStepMotors"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2734,7 +2734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "134c3dac-da34-4e6e-b2bd-65d6337e858e")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR038"
 			(at 157.48 69.6692 0)
 			(effects
 				(font
@@ -2784,7 +2784,7 @@
 		(instances
 			(project "Squid"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "#PWR026")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2951,7 +2951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "179b0994-d547-4f1c-8cf0-6c410e5e9ee5")
-		(property "Reference" "LD5"
+		(property "Reference" "LD4"
 			(at 197.6558 102.9218 0)
 			(effects
 				(font
@@ -3009,7 +3009,7 @@
 			)
 			(project "stm32f4_ILI_RS_SD"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "LD5")
+					(reference "LD4")
 					(unit 1)
 				)
 			)
@@ -3025,7 +3025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c4682f8-abda-4ad8-8771-197dbb080338")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR039"
 			(at 160.02 127 0)
 			(effects
 				(font
@@ -3076,7 +3076,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "#PWR042")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3091,7 +3091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2197a6b2-0bb2-4853-b83e-5d203b980ab8")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 182.2212 102.87 90)
 			(effects
 				(font
@@ -3149,7 +3149,7 @@
 			)
 			(project "stm32f4_ILI_RS_SD"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3165,7 +3165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "267eda41-1410-46bb-ba6c-efefbeb25a07")
-		(property "Reference" "C21"
+		(property "Reference" "C17"
 			(at 114.3 114.935 0)
 			(effects
 				(font
@@ -3225,7 +3225,7 @@
 			)
 			(project "stm32f4_ILI_RS_SD"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "C21")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3241,7 +3241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "311a97b4-ec9b-4431-9179-9884271968c7")
-		(property "Reference" "#PWR0349"
+		(property "Reference" "#PWR031"
 			(at 110.49 114.3 0)
 			(effects
 				(font
@@ -3291,7 +3291,7 @@
 		(instances
 			(project "UnitStepMotors"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "#PWR0349")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3452,7 +3452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60b71923-cb14-4465-8aea-a4f692a640fa")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR030"
 			(at 106.68 82.55 0)
 			(effects
 				(font
@@ -3502,7 +3502,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "#PWR035")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3518,7 +3518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "613df662-a3ba-4530-ae39-3f8c89db59f3")
-		(property "Reference" "C24"
+		(property "Reference" "C18"
 			(at 118.0828 71.325 0)
 			(effects
 				(font
@@ -3572,7 +3572,7 @@
 		(instances
 			(project "Squid"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "C24")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3588,7 +3588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "777239b0-c544-4cf0-8665-64f1a2f2f6a9")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 217.17 105.41 0)
 			(effects
 				(font
@@ -3638,7 +3638,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3653,7 +3653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77746325-9723-4db0-8b39-b920ba167583")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 182.2491 100.33 90)
 			(effects
 				(font
@@ -3711,7 +3711,7 @@
 			)
 			(project "stm32f4_ILI_RS_SD"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3727,7 +3727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79d59bbb-32c5-4f06-b6ae-66efc8d5e7d7")
-		(property "Reference" "#PWR0350"
+		(property "Reference" "#PWR034"
 			(at 124.46 114.3 0)
 			(effects
 				(font
@@ -3777,7 +3777,7 @@
 		(instances
 			(project "UnitStepMotors"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "#PWR0350")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3793,7 +3793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79e064bf-a86e-4fac-a3c6-bdf4d18db5bc")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR029"
 			(at 86.36 101.6 0)
 			(effects
 				(font
@@ -3844,7 +3844,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "#PWR032")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3860,7 +3860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ec44846-000d-4b8e-89bb-83153c2ea991")
-		(property "Reference" "C23"
+		(property "Reference" "C20"
 			(at 130.3316 71.4275 0)
 			(effects
 				(font
@@ -3920,7 +3920,7 @@
 			)
 			(project "stm32f4_ILI_RS_SD"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "C23")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3936,7 +3936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90576f9c-7104-4714-bed1-d022519ba51f")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 110.49 127 0)
 			(effects
 				(font
@@ -3987,7 +3987,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4002,7 +4002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98025041-435c-4826-884c-cb8213da3d94")
-		(property "Reference" "LD4"
+		(property "Reference" "LD5"
 			(at 197.5975 100.3569 0)
 			(effects
 				(font
@@ -4060,7 +4060,7 @@
 			)
 			(project "stm32f4_ILI_RS_SD"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "LD4")
+					(reference "LD5")
 					(unit 1)
 				)
 			)
@@ -4076,7 +4076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98735b55-881c-4369-b2af-b2955b3015c6")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 124.46 127 0)
 			(effects
 				(font
@@ -4127,7 +4127,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4142,7 +4142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bb87687-2391-4eb4-9687-2481a81a2075")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 200.66 107.95 90)
 			(effects
 				(font
@@ -4194,7 +4194,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4210,7 +4210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b73090e8-d4d9-4efd-b83b-deed4ed0b837")
-		(property "Reference" "C22"
+		(property "Reference" "C19"
 			(at 128.27 114.2999 0)
 			(effects
 				(font
@@ -4270,7 +4270,7 @@
 			)
 			(project "stm32f4_ILI_RS_SD"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "C22")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4285,7 +4285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc529f87-4512-49f8-b280-2399afb09339")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 184.404 74.93 90)
 			(effects
 				(font
@@ -4343,7 +4343,7 @@
 			)
 			(project "stm32f4_ILI_RS_SD"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4359,7 +4359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1864c26-8377-4d41-a7a7-f52ac34a9d43")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR037"
 			(at 139.7 119.38 0)
 			(effects
 				(font
@@ -4410,7 +4410,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "#PWR040")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4425,7 +4425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd156c8e-8c03-4cc0-aa08-1d3c140ded00")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 184.15 77.47 90)
 			(effects
 				(font
@@ -4483,7 +4483,7 @@
 			)
 			(project "stm32f4_ILI_RS_SD"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/5af52d5a-2524-4f0f-872e-80f344338bdc"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)

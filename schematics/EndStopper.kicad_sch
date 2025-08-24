@@ -5,6 +5,7 @@
 	(uuid "5e8799e4-abf2-4c65-a9e0-aa8c54296474")
 	(paper "A4")
 	(title_block
+		(date "2025-08-25")
 		(company "МГТУ им. Н.Э.Баумана")
 		(comment 1 "БИГЕ.351101.001 Э3")
 		(comment 2 "Филимонов С.В.")

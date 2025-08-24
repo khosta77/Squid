@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Плата управления\\nшаговыми двигателями")
+		(date "2025-08-25")
 		(company "МГТУ им. Н.Э.Баумана")
 		(comment 1 "БИГЕ.351101.001 Э3")
 		(comment 2 "Филимонов С.В.")
@@ -2279,7 +2280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7d377bb-7963-4f94-a6b2-22ceba9d4fe7")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 143.51 121.92 90)
 			(effects
 				(font
@@ -2331,7 +2332,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/7330fb6d-3de7-4c19-a7a3-dd8fb4865426"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2346,7 +2347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c71d9883-0c98-44ff-b5d8-c1d4db962372")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 143.51 113.03 90)
 			(effects
 				(font
@@ -2398,7 +2399,7 @@
 		(instances
 			(project "MasterBoard"
 				(path "/97e8f341-b455-4614-ab7f-cc310164e7aa/7330fb6d-3de7-4c19-a7a3-dd8fb4865426"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
